@@ -1824,6 +1824,11 @@
       position: absolute;
     }
   }
+  .lg\:inset-x-5 {
+    @media (width >= 64rem) {
+      inset-inline: calc(var(--spacing) * 5);
+    }
+  }
   .lg\:inset-x-12 {
     @media (width >= 64rem) {
       inset-inline: calc(var(--spacing) * 12);
