@@ -709,6 +709,9 @@
   .w-\[80\%\] {
     width: 80%;
   }
+  .w-\[80vw\] {
+    width: 80vw;
+  }
   .w-\[90\%\] {
     width: 90%;
   }
@@ -750,6 +753,9 @@
   }
   .w-\[calc\(100vw-100px\)\] {
     width: calc(100vw - 100px);
+  }
+  .w-\[calc\(100vw-200px\)\] {
+    width: calc(100vw - 200px);
   }
   .w-auto {
     width: auto;
@@ -1435,8 +1441,14 @@
   .text-\[86px\] {
     font-size: 86px;
   }
+  .text-\[90px\] {
+    font-size: 90px;
+  }
   .text-\[100px\] {
     font-size: 100px;
+  }
+  .text-\[105px\] {
+    font-size: 105px;
   }
   .text-\[110px\] {
     font-size: 110px;
@@ -2304,6 +2316,11 @@
   .lg\:text-\[280px\] {
     @media (width >= 64rem) {
       font-size: 280px;
+    }
+  }
+  .lg\:text-\[320px\] {
+    @media (width >= 64rem) {
+      font-size: 320px;
     }
   }
   .lg\:text-\[350px\] {
