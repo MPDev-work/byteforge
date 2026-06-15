@@ -906,9 +906,13 @@
       id="project"
       class="w-screen h-max flex flex-col justify-center items-center pt-20"
     >
-      <div class="w-full h-max flex justify-between items-end px-14">
-        <h1 class="text-6xl font-medium tracking-tight text-balance">
-          See big company we're <br />build for, in our
+      <div
+        class="w-full h-max flex flex-col justify-between items-end px-2.5 lg:px-14 lg:flex-row"
+      >
+        <h1
+          class="lg:text-6xl text-4xl font-medium tracking-tight text-balance"
+        >
+          See big company we're <br class="lg:block hidden" />build for, in our
           <span class="text-gray-400">industry</span>
         </h1>
         <a
@@ -923,10 +927,10 @@
         </a>
       </div>
       <div
-        class="w-screen h-max grid grid-cols-5 grid-flow-row gap-2.5 px-2.5 mt-20"
+        class="w-screen h-max flex flex-col justify-center items-center gap-2.5 px-2.5 mt-20 lg:grid lg:grid-cols-5 lg:grid-flow-row"
       >
         <div
-          class="col-start-1 col-end-3 flex flex-col justify-start items-center overflow-hidden"
+          class="lg:col-start-1 lg:col-end-3 w-full h-max flex flex-col justify-start items-center overflow-hidden"
         >
           <div
             class="w-full h-[300px] flex flex-col justify-center items-center overflow-hidden rounded-3xl"
@@ -955,7 +959,9 @@
                 class="relative w-1/2 h-full rounded-full bg-transparent flex justify-center items-center border border-gray-200"
                 href="#"
               >
-                <span class="text-gray-800 text-sm pr-5">Explore more</span>
+                <span class="text-gray-800 text-xs pr-8 lg:pr-5 lg:text-sm"
+                  >Explore more</span
+                >
                 <div
                   class="absolute h-[calc(100%-4px)] w-[44px] bg-gray-800 rounded-full right-[2px] flex justify-center items-center"
                 >
@@ -966,7 +972,7 @@
           </div>
         </div>
         <div
-          class="col-start-3 col-end-6 flex flex-col justify-start items-center overflow-hidden"
+          class="lg:col-start-1 lg:col-end-3 w-full h-max flex flex-col justify-start items-center overflow-hidden"
         >
           <div
             class="w-full h-[300px] flex flex-col justify-center items-center overflow-hidden rounded-3xl"
@@ -996,7 +1002,9 @@
                 class="relative w-1/2 h-full rounded-full bg-transparent flex justify-center items-center border border-gray-200"
                 href="#"
               >
-                <span class="text-gray-800 text-sm pr-5">Explore more</span>
+                <span class="text-gray-800 text-xs pr-8 lg:pr-5 lg:text-sm"
+                  >Explore more</span
+                >
                 <div
                   class="absolute h-[calc(100%-4px)] w-[44px] bg-gray-800 rounded-full right-[2px] flex justify-center items-center"
                 >
@@ -1007,7 +1015,7 @@
           </div>
         </div>
         <div
-          class="col-start-1 col-end-4 flex flex-col justify-start items-center overflow-hidden"
+          class="lg:col-start-1 lg:col-end-3 w-full h-max flex flex-col justify-start items-center overflow-hidden"
         >
           <div
             class="w-full h-[300px] flex flex-col justify-center items-center overflow-hidden rounded-3xl"
@@ -1036,7 +1044,9 @@
                 class="relative w-1/2 h-full rounded-full bg-transparent flex justify-center items-center border border-gray-200"
                 href="#"
               >
-                <span class="text-gray-800 text-sm pr-5">Explore more</span>
+                <span class="text-gray-800 text-xs pr-8 lg:pr-5 lg:text-sm"
+                  >Explore more</span
+                >
                 <div
                   class="absolute h-[calc(100%-4px)] w-[44px] bg-gray-800 rounded-full right-[2px] flex justify-center items-center"
                 >
@@ -1047,7 +1057,7 @@
           </div>
         </div>
         <div
-          class="col-start-4 col-end-6 flex flex-col justify-start items-center overflow-hidden"
+          class="lg:col-start-1 lg:col-end-3 w-full h-max flex flex-col justify-start items-center overflow-hidden"
         >
           <div
             class="w-full h-[300px] flex flex-col justify-center items-center overflow-hidden rounded-3xl"
@@ -1076,7 +1086,9 @@
                 class="relative w-1/2 h-full rounded-full bg-transparent flex justify-center items-center border border-gray-200"
                 href="#"
               >
-                <span class="text-gray-800 text-sm pr-5">Explore more</span>
+                <span class="text-gray-800 text-xs pr-8 lg:pr-5 lg:text-sm"
+                  >Explore more</span
+                >
                 <div
                   class="absolute h-[calc(100%-4px)] w-[44px] bg-gray-800 rounded-full right-[2px] flex justify-center items-center"
                 >
@@ -1344,6 +1356,6 @@
         </a>
       </div>
     </footer>
-    <script src="./src/js/script.js"></script>
+    <!-- <script src="./src/js/script.js"></script> -->
   </body>
 </html>
