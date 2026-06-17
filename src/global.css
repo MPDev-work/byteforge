@@ -1,1 +1,18 @@
+/* .glass {
+  position: absolute;
+  inset: 0;
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.2);
+  mask-image: linear-gradient(to top, white 0%, white 30%, transparent 100%);
 
+  -webkit-mask-image: linear-gradient(
+    to top,
+    white 0%,
+    white 40%,
+    transparent 80%
+  );
+} */
+
+.font-bebas {
+  font-family: 'Bebas Neue', sans-serif;
+}
