@@ -2276,6 +2276,11 @@
       height: 44px;
     }
   }
+  .lg\:h-\[80\%\] {
+    @media (width >= 64rem) {
+      height: 80%;
+    }
+  }
   .lg\:h-\[220px\] {
     @media (width >= 64rem) {
       height: 220px;
