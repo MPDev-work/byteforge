@@ -16,3 +16,7 @@
 .font-bebas {
   font-family: 'Bebas Neue', sans-serif;
 }
+
+html {
+  scrollbar-color: #555 transparent;
+}
