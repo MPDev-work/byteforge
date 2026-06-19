@@ -2385,7 +2385,7 @@
   src: url('./fonts/SF-Pro-Text-Regular.otf') format('opentype');
 }
 * {
-  font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', sans-serif;
   scrollbar-width: thin;
   scroll-behavior: smooth;
 }
