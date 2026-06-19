@@ -1,6 +1,12 @@
 @import 'tailwindcss';
 
+@font-face {
+  font-family: 'SF Pro Text';
+  src: url('./fonts/SF-Pro-Text-Regular.otf') format('opentype');
+}
+
 * {
+  /* font-family: 'SF Pro Text', 'Poppins', 'Inter', sans-serif; */
   font-family: 'Poppins', 'Inter', sans-serif;
   scrollbar-width: thin;
   scroll-behavior: smooth;
