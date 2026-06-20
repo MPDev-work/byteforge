@@ -50,18 +50,18 @@
   </head>
   <body id="body" class="overflow-x-hidden">
     <nav
-      class="fixed z-[999] inset-x-2.5 lg:inset-x-12 top-5 h-14 rounded-full bg-white px-2.5 flex justify-between items-center transition duration-200"
+      class="fixed z-[999] inset-x-2.5 lg:inset-x-12 top-5 h-14 rounded-full bg-white px-5 flex justify-between items-center transition duration-200"
     >
       <div
-        class="absolute left-[40%] lg:left-1/2 -translate-x-1/2 h-full flex flex-row justify-start items-center gap-1.5"
+        class="lg:absolute lg:left-1/2 lg:-translate-x-1/2 h-full flex justify-start items-center"
       >
         <span
-          class="uppercase text-xl font-semibold tracking-tight text-black sm:text-3xl"
+          class="lg:uppercase capitalize text-2xl font-semibold tracking-tight text-black sm:text-3xl"
         >
           ByteForge
         </span>
       </div>
-      <i class="bi bi-list text-2xl ml-2.5 lg:hidden block"></i>
+      <!-- <i class="bi bi-list text-2xl ml-2.5 lg:hidden block"></i>
       <ul class="flex justify-center items-center gap-3 mr-2 lg:hidden">
         <li>
           <a
@@ -77,7 +77,10 @@
             >Pricing</a
           >
         </li>
-      </ul>
+      </ul> -->
+      <div
+        class="absolute left-1/2 -translate-x-1/2 h-2/3 w-[2px] rounded-full bg-gray-300 block lg:hidden"
+      ></div>
 
       <ul
         class="hidden absolute left-5 flex-row justify-start items-center gap-6 lg:flex"
@@ -126,7 +129,7 @@
         </li>
       </ul>
       <div
-        class="absolute right-1 h-full flex-row justify-end items-center gap-5 lg:flex hidden"
+        class="absolute right-1 h-full flex flex-row justify-end items-center gap-5"
       >
         <button class="h-[86%] text-sm px-5 rounded-full text-white bg-black">
           Get in touch
@@ -1448,6 +1451,38 @@
           get in touch
         </a>
       </div>
+    </footer>
+    <footer
+      class="fixed z-[999] bottom-2.5 inset-x-2.5 h-14 flex justify-between px-5 items-center rounded-full bg-white/80 backdrop-blur-[26px] lg:hidden"
+    >
+      <a class="flex flex-col justify-center items-center" href="#">
+        <i class="bi bi-house text-lg text-gray-800 leading-[1]"></i>
+        <p class="text-[8px] text-gray-800">Home</p>
+      </a>
+      <a class="flex flex-col justify-center items-center" href="about.html">
+        <i
+          class="bi bi-person-exclamation text-lg text-gray-800 leading-[1]"
+        ></i>
+        <p class="text-[8px] text-gray-800">About</p>
+      </a>
+      <a class="flex flex-col justify-center items-center" href="#">
+        <i class="bi bi-cursor text-lg text-gray-800 leading-[1]"></i>
+        <p class="text-[8px] text-gray-800">Service</p>
+      </a>
+      <a class="flex flex-col justify-center items-center" href="#">
+        <i class="bi bi-buildings text-lg text-gray-800 leading-[1]"></i>
+        <p class="text-[8px] text-gray-800">Poject</p>
+      </a>
+      <a class="flex flex-col justify-center items-center" href="pricing.html">
+        <i class="bi bi-tags text-lg text-gray-800 leading-[1]"></i>
+        <p class="text-[8px] text-gray-800">Pricing</p>
+      </a>
+      <a class="flex flex-col justify-center items-center" href="#">
+        <i
+          class="bi bi-envelope-arrow-up text-lg text-gray-800 leading-[1]"
+        ></i>
+        <p class="text-[8px] text-gray-800">Contact</p>
+      </a>
     </footer>
     <!-- <script src="./src/assets/js/script.js"></script> -->
   </body>
