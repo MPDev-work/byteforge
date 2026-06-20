@@ -255,6 +255,9 @@
   .inset-x-2\.5 {
     inset-inline: calc(var(--spacing) * 2.5);
   }
+  .inset-x-5 {
+    inset-inline: calc(var(--spacing) * 5);
+  }
   .top-0 {
     top: calc(var(--spacing) * 0);
   }
