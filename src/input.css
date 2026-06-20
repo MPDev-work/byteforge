@@ -57,7 +57,7 @@ body {
   }
 }
 .scroll-animate1 {
-  animation: scroll1 35.5s linear infinite;
+  animation: scroll1 40s linear infinite;
 }
 @keyframes scroll1 {
   0% {

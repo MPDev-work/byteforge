@@ -2382,7 +2382,7 @@
 }
 @font-face {
   font-family: 'SF Pro Text';
-  src: url('./fonts/SF-Pro-Text-Regular.otf') format('opentype');
+  src: url('./assets/font/SF-Pro-Text-Regular.otf') format('opentype');
 }
 * {
   font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', sans-serif;
@@ -2425,7 +2425,7 @@ html, body {
   }
 }
 .scroll-animate1 {
-  animation: scroll1 35.5s linear infinite;
+  animation: scroll1 40s linear infinite;
 }
 @keyframes scroll1 {
   0% {
