@@ -297,6 +297,18 @@
   .top-\[15\%\] {
     top: 15%;
   }
+  .top-\[70\%\] {
+    top: 70%;
+  }
+  .top-\[75\%\] {
+    top: 75%;
+  }
+  .top-\[78\%\] {
+    top: 78%;
+  }
+  .top-\[80\%\] {
+    top: 80%;
+  }
   .top-\[80px\] {
     top: 80px;
   }
@@ -1382,6 +1394,9 @@
   .py-20 {
     padding-block: calc(var(--spacing) * 20);
   }
+  .py-24 {
+    padding-block: calc(var(--spacing) * 24);
+  }
   .py-40 {
     padding-block: calc(var(--spacing) * 40);
   }
@@ -1393,6 +1408,9 @@
   }
   .pt-5 {
     padding-top: calc(var(--spacing) * 5);
+  }
+  .pt-10 {
+    padding-top: calc(var(--spacing) * 10);
   }
   .pt-14 {
     padding-top: calc(var(--spacing) * 14);
