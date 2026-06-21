@@ -13,6 +13,7 @@
     --color-red-700: oklch(50.5% 0.213 27.518);
     --color-red-800: oklch(44.4% 0.177 26.899);
     --color-orange-500: oklch(70.5% 0.213 47.604);
+    --color-amber-500: oklch(76.9% 0.188 70.08);
     --color-amber-600: oklch(66.6% 0.179 58.318);
     --color-lime-300: oklch(89.7% 0.196 126.665);
     --color-lime-800: oklch(45.3% 0.124 130.933);
@@ -561,6 +562,9 @@
   .h-2\/3 {
     height: calc(2 / 3 * 100%);
   }
+  .h-6 {
+    height: calc(var(--spacing) * 6);
+  }
   .h-7 {
     height: calc(var(--spacing) * 7);
   }
@@ -608,6 +612,9 @@
   }
   .h-\[60dvh\] {
     height: 60dvh;
+  }
+  .h-\[75vh\] {
+    height: 75vh;
   }
   .h-\[86\%\] {
     height: 86%;
@@ -686,6 +693,9 @@
   }
   .w-2\/3 {
     width: calc(2 / 3 * 100%);
+  }
+  .w-6 {
+    width: calc(var(--spacing) * 6);
   }
   .w-7 {
     width: calc(var(--spacing) * 7);
@@ -831,6 +841,9 @@
   }
   .rotate-\[12deg\] {
     rotate: 12deg;
+  }
+  .rotate-\[15deg\] {
+    rotate: 15deg;
   }
   .rotate-\[30deg\] {
     rotate: 30deg;
@@ -1322,8 +1335,20 @@
   .bg-clip-text {
     background-clip: text;
   }
+  .fill-black {
+    fill: var(--color-black);
+  }
+  .fill-gray-400 {
+    fill: var(--color-gray-400);
+  }
   .fill-gray-600 {
     fill: var(--color-gray-600);
+  }
+  .fill-indigo-600 {
+    fill: var(--color-indigo-600);
+  }
+  .stroke-gray-600 {
+    stroke: var(--color-gray-600);
   }
   .object-contain {
     object-fit: contain;
@@ -1657,6 +1682,9 @@
   .text-\[\#f25623\] {
     color: #f25623;
   }
+  .text-\[gray\] {
+    color: gray;
+  }
   .text-\[var\(--gray-shade\)\] {
     color: var(--gray-shade);
   }
@@ -1891,10 +1919,38 @@
       }
     }
   }
+  .group-hover\:fill-black {
+    &:is(:where(.group):hover *) {
+      @media (hover: hover) {
+        fill: var(--color-black);
+      }
+    }
+  }
   .group-hover\:fill-gray-950 {
     &:is(:where(.group):hover *) {
       @media (hover: hover) {
         fill: var(--color-gray-950);
+      }
+    }
+  }
+  .group-hover\:stroke-amber-500 {
+    &:is(:where(.group):hover *) {
+      @media (hover: hover) {
+        stroke: var(--color-amber-500);
+      }
+    }
+  }
+  .group-hover\:stroke-black {
+    &:is(:where(.group):hover *) {
+      @media (hover: hover) {
+        stroke: var(--color-black);
+      }
+    }
+  }
+  .group-hover\:text-black {
+    &:is(:where(.group):hover *) {
+      @media (hover: hover) {
+        color: var(--color-black);
       }
     }
   }
@@ -1930,6 +1986,16 @@
   .group-focus\:fill-gray-950 {
     &:is(:where(.group):focus *) {
       fill: var(--color-gray-950);
+    }
+  }
+  .group-focus\:stroke-black {
+    &:is(:where(.group):focus *) {
+      stroke: var(--color-black);
+    }
+  }
+  .group-focus\:text-black {
+    &:is(:where(.group):focus *) {
+      color: var(--color-black);
     }
   }
   .group-focus\:text-gray-950 {
