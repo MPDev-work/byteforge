@@ -5,3 +5,6 @@
 body {
   background-color: black;
 }
+.poppins {
+  font-family: 'Poppins', 'Inter', sans-serif;
+}
