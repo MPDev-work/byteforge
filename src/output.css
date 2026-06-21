@@ -21,6 +21,7 @@
     --color-emerald-600: oklch(59.6% 0.145 163.225);
     --color-emerald-800: oklch(43.2% 0.095 166.913);
     --color-sky-600: oklch(58.8% 0.158 241.966);
+    --color-blue-600: oklch(54.6% 0.245 262.881);
     --color-indigo-400: oklch(67.3% 0.182 276.935);
     --color-indigo-600: oklch(51.1% 0.262 276.966);
     --color-indigo-700: oklch(45.7% 0.24 277.023);
@@ -1347,6 +1348,9 @@
   .fill-indigo-600 {
     fill: var(--color-indigo-600);
   }
+  .stroke-blue-600 {
+    stroke: var(--color-blue-600);
+  }
   .stroke-gray-600 {
     stroke: var(--color-gray-600);
   }
@@ -1697,6 +1701,9 @@
   .text-black {
     color: var(--color-black);
   }
+  .text-blue-600 {
+    color: var(--color-blue-600);
+  }
   .text-emerald-500 {
     color: var(--color-emerald-500);
   }
@@ -1947,10 +1954,24 @@
       }
     }
   }
+  .group-hover\:stroke-blue-600 {
+    &:is(:where(.group):hover *) {
+      @media (hover: hover) {
+        stroke: var(--color-blue-600);
+      }
+    }
+  }
   .group-hover\:text-black {
     &:is(:where(.group):hover *) {
       @media (hover: hover) {
         color: var(--color-black);
+      }
+    }
+  }
+  .group-hover\:text-blue-600 {
+    &:is(:where(.group):hover *) {
+      @media (hover: hover) {
+        color: var(--color-blue-600);
       }
     }
   }
@@ -1993,9 +2014,19 @@
       stroke: var(--color-black);
     }
   }
+  .group-focus\:stroke-blue-600 {
+    &:is(:where(.group):focus *) {
+      stroke: var(--color-blue-600);
+    }
+  }
   .group-focus\:text-black {
     &:is(:where(.group):focus *) {
       color: var(--color-black);
+    }
+  }
+  .group-focus\:text-blue-600 {
+    &:is(:where(.group):focus *) {
+      color: var(--color-blue-600);
     }
   }
   .group-focus\:text-gray-950 {
