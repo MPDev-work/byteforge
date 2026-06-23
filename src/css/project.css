@@ -1,0 +1,25 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+.animate-scroll-top {
+  animation: animate-scroll-top 40s linear infinite;
+}
+@keyframes animate-scroll-top {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-50%);
+  }
+}
+.animate-scroll-bottom {
+  animation: animate-scroll-bottom 40s linear infinite;
+}
+@keyframes animate-scroll-bottom {
+  from {
+    transform: translateY(-50%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}

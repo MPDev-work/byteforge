@@ -20,3 +20,38 @@
 html {
   scrollbar-color: #555 transparent;
 }
+/* @media (max-width: 480px) {
+  @view-transition {
+    navigation: auto;
+  }
+  ::view-transition-group(page-content) {
+    animation-duration: 0.3s;
+    animation-timing-function: ease-in-out;
+  }
+
+  ::view-transition-old(page-content) {
+    animation-name: slide-out;
+  }
+
+  ::view-transition-new(page-content) {
+    animation-name: slide-in;
+  }
+
+  @keyframes slide-out {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100vw);
+    }
+  }
+
+  @keyframes slide-in {
+    from {
+      transform: translateX(100vw);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+} */
