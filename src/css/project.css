@@ -5,7 +5,7 @@
   font-family: 'Bebas Neue', sans-serif;
 }
 .animate-scroll-left {
-  animation: animate-scroll-left 40s linear infinite;
+  animation: animate-scroll-left 120s linear infinite;
 }
 
 @keyframes animate-scroll-left {
@@ -17,7 +17,7 @@
   }
 }
 .animate-scroll-right {
-  animation: animate-scroll-right 40s linear infinite;
+  animation: animate-scroll-right 120s linear infinite;
 }
 
 @keyframes animate-scroll-right {
