@@ -108,13 +108,45 @@
       </div>
     </nav>
     <section
-      class="relative w-screen h-max lg:h-screen flex flex-col lg:flex-row justify-center items-center"
+      class="relative w-screen h-screen flex flex-col justify-center items-center"
     >
       <div
-        class="absolute z-10 w-full h-screen bg-linear-to-b from-transparent from-60% to-black to-[98%]"
+        class="absolute z-30 w-full h-full bg-[linear-gradient(to_right,_black_0%,_#00000090_30%,_#00000090_70%,black_100%)]"
       ></div>
       <div
-        class="w-full h-screen flex justify-center items-center overflow-hidden"
+        class="absolute z-40 w-full h-full flex flex-col justify-center items-center gap-2.5"
+      >
+        <h1
+          class="bebas-neue capitalize text-[100px] font-bold text-balance text-center text-white leading-[.8]"
+        >
+          Welcome to
+          <span class="bebas-neue text-emerald-600">byteforge</span> <br />
+          project overviews.
+        </h1>
+        <p
+          class="bebas-neue text-5xl text-balance text-center text-orange-500 leading-[1]"
+        >
+          Lorem ipsum dolor sit amet consectetur <br />
+          adipisicing elit. Eos amet similique eum.
+        </p>
+        <div
+          class="group w-1/2 h-16 flex justify-between items-center px-[2px] rounded-full bg-white/20 backdrop-blur-3xl transition duration-200 hover:bg-white/50 focus:bg-white/50"
+        >
+          <input
+            class="w-auto h-full border-0 outline-0 bg-transparent text-white px-5 transition duration-300 group-hover:text-black"
+            type="text"
+            placeholder="example@gmail.com"
+          />
+          <button
+            class="w-[200px] h-[calc(100%-4px)] rounded-full bg-emerald-600 text-white"
+            type="submit"
+          >
+            Get start for free
+          </button>
+        </div>
+      </div>
+      <div
+        class="absolute z-0 w-full h-full flex justify-center items-center overflow-hidden"
       >
         <img
           class="w-full h-full object-cover blur-3xl"
@@ -122,173 +154,170 @@
         />
       </div>
       <div
-        class="absolute left-0 z-20 lg:h-full h-max w-full lg:w-1/2 flex flex-col justify-center items-center pl-10 lg:items-start"
-      >
-        <p class="text-xl text-white leading-[1]">welcome to</p>
-        <h1 class="text-8xl text-balance font-bold text-red-500">byteforge</h1>
-        <h1 class="text-3xl font-bold text-white">khmer architechture inc.</h1>
-      </div>
-      <div
-        class="absolute right-0 z-20 h-max lg:h-full w-full lg:w-1/2 flex flex-col lg:flex-row justify-start lg:justify-center items-center lg:items-start gap-2.5 lg:pr-2.5 overflow-hidden"
+        class="absolute z-10 w-full h-full flex flex-col justify-center items-center overflow-hidden"
       >
         <div
-          class="absolute z-[100] w-full h-full bg-[linear-gradient(to_right,_#030712_1%,_transparent_20%,_transparent_80%,#030712_99%)] lg:bg-[linear-gradient(to_bottom,_#030712_1%,_transparent_20%,_transparent_80%,#030712_99%)]"
-        ></div>
-        <div
-          class="animate-scroll-top w-max h-full lg:w-1/2 lg:h-max flex lg:flex-col flex-row justify-start items-center"
+          class="animate-scroll-left h-full w-max flex flex-row justify-center items-center overflow-hidden"
         >
-          <!-- sect 1 -->
-          <img
-            class="lg:w-full lg:h-auto h-[120px] w-max object-cover rounded-2xl lg:rounded-3xl ml-2.5 lg:mt-2.5"
-            src="./src/assets/images/2015_1_000_N1800_landing.avif"
-          />
-          <img
-            class="lg:w-full lg:h-auto h-[120px] w-max object-cover rounded-2xl lg:rounded-3xl ml-2.5 lg:mt-2.5"
-            src="./src/assets/images/2157_PetersenMuseumThumbnail_16x9-scaled.avif"
-          />
-          <img
-            class="lg:w-full lg:h-auto h-[120px] w-max object-cover rounded-2xl lg:rounded-3xl ml-2.5 lg:mt-2.5"
-            src="./src/assets/images/2208_N954_hero_1x1-1440x1440.avif"
-          />
-          <img
-            class="lg:w-full lg:h-auto h-[120px] w-max object-cover rounded-2xl lg:rounded-3xl ml-2.5 lg:mt-2.5"
-            src="./src/assets/images/amir-hosseini-3cl6impBd_8-unsplash.avif"
-          />
-          <img
-            class="lg:w-full lg:h-auto h-[120px] w-max object-cover rounded-2xl lg:rounded-3xl ml-2.5 lg:mt-2.5"
-            src="./src/assets/images/apple-park.avif"
-          />
-          <img
-            class="lg:w-full lg:h-auto h-[120px] w-max object-cover rounded-2xl lg:rounded-3xl ml-2.5 lg:mt-2.5"
-            src="./src/assets/images/bedroom.avif"
-          />
-          <img
-            class="lg:w-full lg:h-auto h-[120px] w-max object-cover rounded-2xl lg:rounded-3xl ml-2.5 lg:mt-2.5"
-            src="./src/assets/images/FTB_Tower.avif"
-          />
-          <img
-            class="lg:w-full lg:h-auto h-[120px] w-max object-cover rounded-2xl lg:rounded-3xl ml-2.5 lg:mt-2.5"
-            src="./src/assets/images/google-headquater.avif"
-          />
-          <img
-            class="lg:w-full lg:h-auto h-[120px] w-max object-cover rounded-2xl lg:rounded-3xl ml-2.5 lg:mt-2.5"
-            src="./src/assets/images/luke-van-zyl-koH7IVuwRLw-unsplash.avif"
-          />
-          <!-- sect 1 -->
-          <img
-            class="lg:w-full lg:h-auto h-[120px] w-max object-cover rounded-2xl lg:rounded-3xl ml-2.5 lg:mt-2.5"
-            src="./src/assets/images/2015_1_000_N1800_landing.avif"
-          />
-          <img
-            class="lg:w-full lg:h-auto h-[120px] w-max object-cover rounded-2xl lg:rounded-3xl ml-2.5 lg:mt-2.5"
-            src="./src/assets/images/2157_PetersenMuseumThumbnail_16x9-scaled.avif"
-          />
-          <img
-            class="lg:w-full lg:h-auto h-[120px] w-max object-cover rounded-2xl lg:rounded-3xl ml-2.5 lg:mt-2.5"
-            src="./src/assets/images/2208_N954_hero_1x1-1440x1440.avif"
-          />
-          <img
-            class="lg:w-full lg:h-auto h-[120px] w-max object-cover rounded-2xl lg:rounded-3xl ml-2.5 lg:mt-2.5"
-            src="./src/assets/images/amir-hosseini-3cl6impBd_8-unsplash.avif"
-          />
-          <img
-            class="lg:w-full lg:h-auto h-[120px] w-max object-cover rounded-2xl lg:rounded-3xl ml-2.5 lg:mt-2.5"
-            src="./src/assets/images/apple-park.avif"
-          />
-          <img
-            class="lg:w-full lg:h-auto h-[120px] w-max object-cover rounded-2xl lg:rounded-3xl ml-2.5 lg:mt-2.5"
-            src="./src/assets/images/bedroom.avif"
-          />
-          <img
-            class="lg:w-full lg:h-auto h-[120px] w-max object-cover rounded-2xl lg:rounded-3xl ml-2.5 lg:mt-2.5"
-            src="./src/assets/images/FTB_Tower.avif"
-          />
-          <img
-            class="lg:w-full lg:h-auto h-[120px] w-max object-cover rounded-2xl lg:rounded-3xl ml-2.5 lg:mt-2.5"
-            src="./src/assets/images/google-headquater.avif"
-          />
-          <img
-            class="lg:w-full lg:h-auto h-[120px] w-max object-cover rounded-2xl lg:rounded-3xl ml-2.5 lg:mt-2.5"
-            src="./src/assets/images/luke-van-zyl-koH7IVuwRLw-unsplash.avif"
-          />
+          <div class="w-max h-full flex flex-row justify-start items-center">
+            <!-- sect 1 -->
+            <img
+              class="h-full w-max object-cover ml-2.5"
+              src="./src/assets/images/2015_1_000_N1800_landing.avif"
+            />
+            <img
+              class="h-full w-max object-cover ml-2.5"
+              src="./src/assets/images/2157_PetersenMuseumThumbnail_16x9-scaled.avif"
+            />
+            <img
+              class="h-full w-max object-cover ml-2.5"
+              src="./src/assets/images/2208_N954_hero_1x1-1440x1440.avif"
+            />
+            <img
+              class="h-full w-max object-cover ml-2.5"
+              src="./src/assets/images/amir-hosseini-3cl6impBd_8-unsplash.avif"
+            />
+            <img
+              class="h-full w-max object-cover ml-2.5"
+              src="./src/assets/images/apple-park.avif"
+            />
+            <img
+              class="h-full w-max object-cover ml-2.5"
+              src="./src/assets/images/bedroom.avif"
+            />
+            <img
+              class="h-full w-max object-cover ml-2.5"
+              src="./src/assets/images/FTB_Tower.avif"
+            />
+            <img
+              class="h-full w-max object-cover ml-2.5"
+              src="./src/assets/images/google-headquater.avif"
+            />
+            <img
+              class="h-full w-max object-cover ml-2.5"
+              src="./src/assets/images/luke-van-zyl-koH7IVuwRLw-unsplash.avif"
+            />
+            <!-- sect 1 -->
+            <img
+              class="h-full w-max object-cover ml-2.5"
+              src="./src/assets/images/2015_1_000_N1800_landing.avif"
+            />
+            <img
+              class="h-full w-max object-cover ml-2.5"
+              src="./src/assets/images/2157_PetersenMuseumThumbnail_16x9-scaled.avif"
+            />
+            <img
+              class="h-full w-max object-cover ml-2.5"
+              src="./src/assets/images/2208_N954_hero_1x1-1440x1440.avif"
+            />
+            <img
+              class="h-full w-max object-cover ml-2.5"
+              src="./src/assets/images/amir-hosseini-3cl6impBd_8-unsplash.avif"
+            />
+            <img
+              class="h-full w-max object-cover ml-2.5"
+              src="./src/assets/images/apple-park.avif"
+            />
+            <img
+              class="h-full w-max object-cover ml-2.5"
+              src="./src/assets/images/bedroom.avif"
+            />
+            <img
+              class="h-full w-max object-cover ml-2.5"
+              src="./src/assets/images/FTB_Tower.avif"
+            />
+            <img
+              class="h-full w-max object-cover ml-2.5"
+              src="./src/assets/images/google-headquater.avif"
+            />
+            <img
+              class="h-full w-max object-cover ml-2.5"
+              src="./src/assets/images/luke-van-zyl-koH7IVuwRLw-unsplash.avif"
+            />
+          </div>
         </div>
         <div
-          class="animate-scroll-bottom w-max h-full lg:w-1/2 lg:h-max flex lg:flex-col flex-row justify-end items-center"
+          class="animate-scroll-right h-full w-max flex flex-row justify-end items-center overflow-hidden mt-2.5"
         >
-          <!-- sect 1 -->
-          <img
-            class="lg:w-full lg:h-auto h-[120px] w-max object-cover rounded-2xl lg:rounded-3xl ml-2.5 lg:mt-2.5"
-            src="./src/assets/images/2015_1_000_N1800_landing.avif"
-          />
-          <img
-            class="lg:w-full lg:h-auto h-[120px] w-max object-cover rounded-2xl lg:rounded-3xl ml-2.5 lg:mt-2.5"
-            src="./src/assets/images/2157_PetersenMuseumThumbnail_16x9-scaled.avif"
-          />
-          <img
-            class="lg:w-full lg:h-auto h-[120px] w-max object-cover rounded-2xl lg:rounded-3xl ml-2.5 lg:mt-2.5"
-            src="./src/assets/images/2208_N954_hero_1x1-1440x1440.avif"
-          />
-          <img
-            class="lg:w-full lg:h-auto h-[120px] w-max object-cover rounded-2xl lg:rounded-3xl ml-2.5 lg:mt-2.5"
-            src="./src/assets/images/amir-hosseini-3cl6impBd_8-unsplash.avif"
-          />
-          <img
-            class="lg:w-full lg:h-auto h-[120px] w-max object-cover rounded-2xl lg:rounded-3xl ml-2.5 lg:mt-2.5"
-            src="./src/assets/images/apple-park.avif"
-          />
-          <img
-            class="lg:w-full lg:h-auto h-[120px] w-max object-cover rounded-2xl lg:rounded-3xl ml-2.5 lg:mt-2.5"
-            src="./src/assets/images/bedroom.avif"
-          />
-          <img
-            class="lg:w-full lg:h-auto h-[120px] w-max object-cover rounded-2xl lg:rounded-3xl ml-2.5 lg:mt-2.5"
-            src="./src/assets/images/FTB_Tower.avif"
-          />
-          <img
-            class="lg:w-full lg:h-auto h-[120px] w-max object-cover rounded-2xl lg:rounded-3xl ml-2.5 lg:mt-2.5"
-            src="./src/assets/images/google-headquater.avif"
-          />
-          <img
-            class="lg:w-full lg:h-auto h-[120px] w-max object-cover rounded-2xl lg:rounded-3xl ml-2.5 lg:mt-2.5"
-            src="./src/assets/images/luke-van-zyl-koH7IVuwRLw-unsplash.avif"
-          />
-          <!-- sect 1 -->
-          <img
-            class="lg:w-full lg:h-auto h-[120px] w-max object-cover rounded-2xl lg:rounded-3xl ml-2.5 lg:mt-2.5"
-            src="./src/assets/images/2015_1_000_N1800_landing.avif"
-          />
-          <img
-            class="lg:w-full lg:h-auto h-[120px] w-max object-cover rounded-2xl lg:rounded-3xl ml-2.5 lg:mt-2.5"
-            src="./src/assets/images/2157_PetersenMuseumThumbnail_16x9-scaled.avif"
-          />
-          <img
-            class="lg:w-full lg:h-auto h-[120px] w-max object-cover rounded-2xl lg:rounded-3xl ml-2.5 lg:mt-2.5"
-            src="./src/assets/images/2208_N954_hero_1x1-1440x1440.avif"
-          />
-          <img
-            class="lg:w-full lg:h-auto h-[120px] w-max object-cover rounded-2xl lg:rounded-3xl ml-2.5 lg:mt-2.5"
-            src="./src/assets/images/amir-hosseini-3cl6impBd_8-unsplash.avif"
-          />
-          <img
-            class="lg:w-full lg:h-auto h-[120px] w-max object-cover rounded-2xl lg:rounded-3xl ml-2.5 lg:mt-2.5"
-            src="./src/assets/images/apple-park.avif"
-          />
-          <img
-            class="lg:w-full lg:h-auto h-[120px] w-max object-cover rounded-2xl lg:rounded-3xl ml-2.5 lg:mt-2.5"
-            src="./src/assets/images/bedroom.avif"
-          />
-          <img
-            class="lg:w-full lg:h-auto h-[120px] w-max object-cover rounded-2xl lg:rounded-3xl ml-2.5 lg:mt-2.5"
-            src="./src/assets/images/FTB_Tower.avif"
-          />
-          <img
-            class="lg:w-full lg:h-auto h-[120px] w-max object-cover rounded-2xl lg:rounded-3xl ml-2.5 lg:mt-2.5"
-            src="./src/assets/images/google-headquater.avif"
-          />
-          <img
-            class="lg:w-full lg:h-auto h-[120px] w-max object-cover rounded-2xl lg:rounded-3xl ml-2.5 lg:mt-2.5"
-            src="./src/assets/images/luke-van-zyl-koH7IVuwRLw-unsplash.avif"
-          />
+          <!-- <div
+            class="absolute z-[100] w-full h-full bg-[linear-gradient(to_right,_black_1%,_transparent_10%,_transparent_90%,black_99%)]"
+          ></div> -->
+          <div class="w-max h-full flex flex-row justify-end items-center">
+            <!-- sect 1 -->
+            <img
+              class="h-full w-max object-cover ml-2.5"
+              src="./src/assets/images/2015_1_000_N1800_landing.avif"
+            />
+            <img
+              class="h-full w-max object-cover ml-2.5"
+              src="./src/assets/images/2157_PetersenMuseumThumbnail_16x9-scaled.avif"
+            />
+            <img
+              class="h-full w-max object-cover ml-2.5"
+              src="./src/assets/images/2208_N954_hero_1x1-1440x1440.avif"
+            />
+            <img
+              class="h-full w-max object-cover ml-2.5"
+              src="./src/assets/images/amir-hosseini-3cl6impBd_8-unsplash.avif"
+            />
+            <img
+              class="h-full w-max object-cover ml-2.5"
+              src="./src/assets/images/apple-park.avif"
+            />
+            <img
+              class="h-full w-max object-cover ml-2.5"
+              src="./src/assets/images/bedroom.avif"
+            />
+            <img
+              class="h-full w-max object-cover ml-2.5"
+              src="./src/assets/images/FTB_Tower.avif"
+            />
+            <img
+              class="h-full w-max object-cover ml-2.5"
+              src="./src/assets/images/google-headquater.avif"
+            />
+            <img
+              class="h-full w-max object-cover ml-2.5"
+              src="./src/assets/images/luke-van-zyl-koH7IVuwRLw-unsplash.avif"
+            />
+            <!-- sect 1 -->
+            <img
+              class="h-full w-max object-cover ml-2.5"
+              src="./src/assets/images/2015_1_000_N1800_landing.avif"
+            />
+            <img
+              class="h-full w-max object-cover ml-2.5"
+              src="./src/assets/images/2157_PetersenMuseumThumbnail_16x9-scaled.avif"
+            />
+            <img
+              class="h-full w-max object-cover ml-2.5"
+              src="./src/assets/images/2208_N954_hero_1x1-1440x1440.avif"
+            />
+            <img
+              class="h-full w-max object-cover ml-2.5"
+              src="./src/assets/images/amir-hosseini-3cl6impBd_8-unsplash.avif"
+            />
+            <img
+              class="h-full w-max object-cover ml-2.5"
+              src="./src/assets/images/apple-park.avif"
+            />
+            <img
+              class="h-full w-max object-cover ml-2.5"
+              src="./src/assets/images/bedroom.avif"
+            />
+            <img
+              class="h-full w-max object-cover ml-2.5"
+              src="./src/assets/images/FTB_Tower.avif"
+            />
+            <img
+              class="h-full w-max object-cover ml-2.5"
+              src="./src/assets/images/google-headquater.avif"
+            />
+            <img
+              class="h-full w-max object-cover ml-2.5"
+              src="./src/assets/images/luke-van-zyl-koH7IVuwRLw-unsplash.avif"
+            />
+          </div>
         </div>
       </div>
     </section>

@@ -4,29 +4,31 @@
 .bebas-neue {
   font-family: 'Bebas Neue', sans-serif;
 }
-.animate-scroll-top {
-  animation: animate-scroll-top 40s linear infinite;
+.animate-scroll-left {
+  animation: animate-scroll-left 40s linear infinite;
 }
-@keyframes animate-scroll-top {
+
+@keyframes animate-scroll-left {
   from {
-    transform: translateY(0);
+    transform: translateX(0);
   }
   to {
-    transform: translateY(-50%);
+    transform: translateX(-50%);
   }
 }
-.animate-scroll-bottom {
-  animation: animate-scroll-bottom 40s linear infinite;
+.animate-scroll-right {
+  animation: animate-scroll-right 40s linear infinite;
 }
-@keyframes animate-scroll-bottom {
-  from {
-    transform: translateY(-50%);
+
+@keyframes animate-scroll-right {
+  0% {
+    transform: translateX(0%);
   }
-  to {
-    transform: translateY(0%);
+  100% {
+    transform: translateX(50%);
   }
 }
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
   .animate-scroll-top {
     animation: animate-scroll-top 40s linear infinite;
   }
@@ -49,4 +51,4 @@
       transform: translateX(50%);
     }
   }
-}
+} */
